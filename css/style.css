@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0; border: 0;}
+body{background: url(../images/background.png) no-repeat center; height: 4148px;}
+.wrap{width: 100%; height: 4148px;}
+.home{width: 100%; height: 893px;}
+.aboutme{width: 100%; height: 550px;}
+.skills{width: 100%; height: 542px;}
+.projects{width: 100%; height: 1552px;}
+.project1{width: 100%; height: 776px;}
+.pj-box1{width: 467px; height: 348px; overflow: hidden; position: relative; left: 287px; top: 277px;}
+.pj-box1 img{width: 467px;}
+.project2{width: 100%; height: 776px;}
+.pj-box2{width: 467px; height: 348px; overflow: hidden; position: relative; left: 287px; top: 277px;}
+.pj-box2 img{width: 467px;}
+.contact{width: 100%; height: 611px;}

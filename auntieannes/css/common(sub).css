@@ -1,0 +1,144 @@
+.inner{
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+#header .nav{
+    background: #ffffff;
+    height: 125px;
+}
+#header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 125px;
+}
+#header .navbar > h1{
+    font-size: 0;
+    text-indent: -99999999px;
+    line-height: 42px;
+}
+#header .navbar > h1 > a{
+    display: block;
+    background: url(../img/gnb_logo.png) no-repeat center 0px;
+    width: 264px;
+    height: 48px;
+}
+#header .navbar .gnb{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#header .navbar .gnb a{
+    color:#4B4B4B;
+    display: inline-block;
+    padding: 14px 22px;
+}
+
+#content{}
+#content>section{
+    margin-top:112px;
+}
+.menu_box{
+    text-align: center;
+    margin: 150px auto;
+}
+.menu_tit{
+    font-size: 60px;
+    color: #005AD5;
+}
+.menu_titsub{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.menu_box_board_left{
+    width: 244px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.menu_box_board_left li:nth-child(1){
+    color: #005AD5;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.menu_box_board_left li:nth-child(2){
+    color: rgba(0,90,213,0.44);
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.menu_box_board_left li:nth-child(3){
+    color: #000000;
+    font-size: 17px;
+    margin: 20px 0;
+}
+.menu_box_board_left li:nth-child(3) b{
+    font-weight: bold;
+}
+.menu_box_board_right{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_img img{
+    width: 244px;
+}
+.all_menu{
+    text-align: center;
+}
+.all_menu h3{
+    font-size: 60px;
+    color: #005AD5;
+}
+.all_menutit{
+    font-size: 20px;
+}
+.classic{
+    margin: ;
+}
+#footer .footr_wrap{
+    width: 100%;
+    background: #0047BA;
+    padding: 30px 0 10px;
+    text-align: center;
+}
+.footer_logo{
+    margin-bottom: 30px;
+}
+.footer_info1{
+    font-size: 16px;
+    color: #ffffff;
+}
+.footer_info2{
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.footer_info2 p{
+    padding: 0 10px;
+    margin: 10px 0;
+}
+.footer_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer_btn p{
+    border: 1px solid rgba(255,255,255,0.5);
+    width: 145px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 40px;
+    margin: 0 10px;
+}
+#footer .copyright{
+    background: #FFB300;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px 0;
+    color: #ffffff;
+}
